@@ -1,0 +1,8 @@
+Test Case Id,Description,a,b,c,Expected,
+1,Weak Robust,100,100,100,
+2,Weak Robust,0,100,100,
+3,Weak Robust,100,0,100,
+4,Weak Robust,100,100,0,
+5,Weak Robust,201,100,100,
+6,Weak Robust,100,201,100,
+7,Weak Robust,100,100,201,

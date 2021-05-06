@@ -1,0 +1,29 @@
+Test Case Id,Description,Year,Month,Day,Expected,Output,Test Condition
+1,Strong Robust,2000,6,14,,2000-6-15
+2,Strong Robust,1996,6,14,,1996-6-15
+3,Strong Robust,2002,6,14,,2002-6-15
+4,Strong Robust,2000,6,29,,2000-6-30
+5,Strong Robust,1996,6,29,,1996-6-30
+6,Strong Robust,2002,6,29,,2002-6-30
+7,Strong Robust,2000,6,30,,2000-7-1
+8,Strong Robust,1996,6,30,,1996-7-1
+9,Strong Robust,2002,6,30,,2002-6-31
+10,Strong Robust,2000,6,31,,Invalid Date
+11,Strong Robust,2000,2,30,,Invalid Date
+12,Strong Robust,1996,2,30,,Invalid Date
+13,Strong Robust,2002,2,30,,Invalid Date
+14,Strong Robust,2000,2,31,,Invalid Date
+15,Strong Robust,1996,2,31,,Invalid Date
+16,Strong Robust,2002,2,31,,Invalid Date
+17,Strong Robust,1811,1,31,,Invalid Date
+18,Strong Robust,2013,1,31,,Invalid Date
+19,Strong Robust,1812,0,31,,Invalid Date
+20,Strong Robust,1812,13,31,,Invalid Date
+21,Strong Robust,1812,1,0,,Invalid Date
+22,Strong Robust,1812,1,32,,Invalid Date
+23,Strong Robust,1811,0,31,,Invalid Date
+24,Strong Robust,2013,0,31,,Invalid Date
+25,Strong Robust,1811,1,0,,Invalid Date
+26,Strong Robust,1811,1,32,,Invalid Date
+27,Strong Robust,2013,1,0,,Invalid Date
+28,Strong Robust,2013,1,32,,Invalid Date

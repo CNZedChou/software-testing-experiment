@@ -1,0 +1,11 @@
+Test Case Id,Description,Year,Month,Day,Expected,Output,Test Condition
+1,Weak Robust,2000,6,14,,2000-6-15
+2,Weak Robust,1996,7,29,,1996-7-30
+3,Weak Robust,2002,2,30,,Invalid Date
+4,Weak Robust,2000,6,31,,Invalid Date
+5,Weak Robust,2013,1,31,,Invalid Date
+6,Weak Robust,1811,1,31,,Invalid Date
+7,Weak Robust,1812,0,31,,Invalid Date
+8,Weak Robust,2012,13,31,,Invalid Date
+9,Weak Robust,1812,1,0,,Invalid Date
+10,Weak Robust,2012,1,32,,Invalid Date
