@@ -1,0 +1,7 @@
+Test Case Id,Description,a,b,c,Expected,Output,Test Condition
+1,!C1,60,30,20,,NotATriangle
+2,C1+!C2+!C3+!C4,30,40,50,,Scalene
+3,C1+C2+C3+C4,60,60,60,,Equilateral
+4,C1+C2+!C3+!C4,60,60,50,,Isosceles
+5,C1+!C2+C3+!C4,60,50,60,,Isosceles
+6,C1+!C2+!C3+C4,50,60,60,,Isosceles
