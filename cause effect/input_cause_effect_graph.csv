@@ -1,0 +1,7 @@
+Test Case Id,Description,First Character,Second Character,Expected,Output,Test Condition
+1,(#)+(number),#,3,modify the document
+2,(#)+(not a number),#,A,information M
+3,(*)+(number),*,6,modify the document
+4,(*)+(not a number),*,B,information M
+5,(not # or *)+(number),A,1,modify the document
+6,(not # or *)+(not a number),G,T,information M

@@ -1,0 +1,10 @@
+Test Case Id,Description,a,b,c,Expected,Output,Test Condition
+1,(M1+M2=e2),3,4,5,Scalene,Scalene,Pass
+2,(!M1=e1),0,100,100,OutOfRange,OutOfRange,Pass
+3,(M1+!M2=e5),6,1,5,NotATriangle,NotATriangle,Pass
+4,(M1+!M2=e5),1,6,5,NotATriangle,NotATriangle,Pass
+5,(M1+!M2=e5),1,5,6,NotATriangle,NotATriangle,Pass
+6,(M1+M2+M4=e4),100,100,100,Equilateral,Equilateral,Pass
+7,(M1+M2+M3=e3),100,100,150,Isosceles,Isosceles,Pass
+8,(M1+M2+M3=e3),100,150,100,Isosceles,Isosceles,Pass
+9,(M1+M2+M3=e3),150,100,100,Isosceles,Isosceles,Pass
