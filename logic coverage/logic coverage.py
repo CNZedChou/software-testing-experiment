@@ -49,7 +49,7 @@ def execute_logic_coverage_test_cases():
 def execute_all_logic_coverage_test_cases():
     execute_logic_coverage_test_cases()
     print(
-        'All Triangle Problem cases have been executed!\nResult files: executed_logic_coverage_test_cases.csv')
+        'All Logic Coverage cases have been executed!\nResult files: executed_logic_coverage_test_cases.csv')
 
 
 def main():
