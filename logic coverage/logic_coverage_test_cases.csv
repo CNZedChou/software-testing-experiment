@@ -1,0 +1,16 @@
+Test Case Id,Description,A,B,X,Expected
+1,Statement Coverage,2,0,2,2
+2,Decision Coverage(TT),2,0,2,2
+3,Decision Coverage(FF),3,1,0,0
+4,Condition Coverage[(A>1)+(B==0)+(A==2)+(X>1)],2,0,2,2
+5,Condition Coverage[(A<=1)+(B!=0)+(A!=2)+(X<=1)],1,1,1,1
+6,Decision/Condition Coverage{[TT]+[(A>1)+(B==0)+(A==2)+(X>1)]},2,0,2,2
+7,Decision/Condition Coverage{[FF]+[(A<=1)+(B!=0)+(A!=2)+(X<=1)]},1,1,1,1
+8,Condition Combination Coverage([T1]+[T2]+[T3]+[T4]),2,0,2,2
+9,Condition Combination Coverage([T1]+[!T2]+[T3]+[!T4]),2,1,1,2
+10,Condition Combination Coverage([!T1]+[T2]+[!T3]+[T4]),1,0,2,3
+11,Condition Combination Coverage([!T1]+[!T2]+[!T3]+[!T4]),1,1,1,1
+12,Path Coverage(TT),2,0,4,3
+13,Path Coverage(FF),1,1,1,1
+14,Path Coverage(FT),2,1,1,2
+15,Path Coverage(TF),3,0,3,1
